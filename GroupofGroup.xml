@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+
+<suite name="Suite name can be modified eg FunctionalTestSuite">
+    
+       
+  
+  <test  name="Test">
+    <groups>
+    
+    <define name="Cat Family">
+    <include name="Lion"/>
+    <include name="Cheetah"/>
+    <include name="Cat"/>
+    </define>
+
+    <define name="Non Cat Family">
+    <include name="Elephant"/>
+    <include name="Dog"/>
+    </define>
+
+    <define name="Animals">
+    <include name="Cat Family"/>
+    <include name="Non Cat Family"/>
+    </define>
+
+   <run>
+   <include name="Cat Family"/>
+   </run>
+   
+   </groups>
+
+    <classes>
+    
+    
+      <class name="demo.GroupofGroups">
+        
+      
+      </class>
+      
+            
+    </classes>
+    
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
