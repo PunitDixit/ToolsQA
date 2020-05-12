@@ -1,6 +1,7 @@
 package Chrome_Demo;
 
 import java.util.List;
+import java.util.Set;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -28,11 +29,13 @@ public class DropdownMultipleSelect {
 		
 		Select select = new Select(element);
 		
+		
 		select.selectByIndex(0);
 		Thread.sleep(5000);
 		select.selectByVisibleText("Africa");
 		Thread.sleep(5000);
 		
+	
 		List<WebElement> elements = select.getOptions();
 		for(int i=0; i<elements.size();i++)
 		{

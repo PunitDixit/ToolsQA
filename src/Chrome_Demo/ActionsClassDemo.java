@@ -22,6 +22,7 @@ public class ActionsClassDemo extends GlobalClass {
 		.sendKeys(we, "text")
 		.keyUp(we, Keys.SHIFT);
 		
+		
 		Action acnInt = acn.build();
 		acnInt.perform();
 		

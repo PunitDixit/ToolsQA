@@ -25,8 +25,7 @@ public class RobotClassDemo extends GlobalClass {
 	    robot.keyRelease(KeyEvent.VK_ENTER);
 	    
 		
-		
-		
+	
 		
 		
 		

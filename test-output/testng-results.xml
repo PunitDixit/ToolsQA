@@ -1,34 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-03-22T03:09:48 IST" name="Suite name can be modified eg FunctionalTestSuite" finished-at="2020-03-22T03:09:48 IST" duration-ms="64">
+  <suite started-at="2020-03-30T15:21:30 IST" name="Default suite" finished-at="2020-03-30T15:21:30 IST" duration-ms="80">
     <groups>
-      <group name="Cat">
-        <method signature="GroupofGroups.m3()[pri:0, instance:demo.GroupofGroups@4278a03f]" name="m3" class="demo.GroupofGroups"/>
-      </group> <!-- Cat -->
-      <group name="Lion">
-        <method signature="GroupofGroups.m4()[pri:0, instance:demo.GroupofGroups@4278a03f]" name="m4" class="demo.GroupofGroups"/>
-      </group> <!-- Lion -->
-      <group name="Cheetah">
-        <method signature="GroupofGroups.m5()[pri:0, instance:demo.GroupofGroups@4278a03f]" name="m5" class="demo.GroupofGroups"/>
-      </group> <!-- Cheetah -->
+      <group name="group">
+        <method signature="beforeAfter.Group2()[pri:0, instance:demo.beforeAfter@4445629]" name="Group2" class="demo.beforeAfter"/>
+        <method signature="beforeAfter.Group1()[pri:0, instance:demo.beforeAfter@4445629]" name="Group1" class="demo.beforeAfter"/>
+      </group> <!-- group -->
     </groups>
-    <test started-at="2020-03-22T03:09:48 IST" name="Test" finished-at="2020-03-22T03:09:48 IST" duration-ms="64">
-      <class name="demo.GroupofGroups">
-        <test-method signature="m3()[pri:0, instance:demo.GroupofGroups@4278a03f]" started-at="2020-03-22T03:09:48 IST" name="m3" finished-at="2020-03-22T03:09:48 IST" duration-ms="8" status="PASS">
+    <test started-at="2020-03-30T15:21:30 IST" name="Default test" finished-at="2020-03-30T15:21:30 IST" duration-ms="80">
+      <class name="demo.beforeAfter">
+        <test-method is-config="true" signature="Group3()[pri:0, instance:demo.beforeAfter@4445629]" started-at="2020-03-30T15:21:30 IST" name="Group3" finished-at="2020-03-30T15:21:30 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m3 -->
-        <test-method signature="m4()[pri:0, instance:demo.GroupofGroups@4278a03f]" started-at="2020-03-22T03:09:48 IST" name="m4" finished-at="2020-03-22T03:09:48 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- Group3 -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:demo.beforeAfter@4445629]" started-at="2020-03-30T15:21:30 IST" name="beforeTest" finished-at="2020-03-30T15:21:30 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m4 -->
-        <test-method signature="m5()[pri:0, instance:demo.GroupofGroups@4278a03f]" started-at="2020-03-22T03:09:48 IST" name="m5" finished-at="2020-03-22T03:09:48 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:demo.beforeAfter@4445629]" started-at="2020-03-30T15:21:30 IST" name="BeforeClass" finished-at="2020-03-30T15:21:30 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m5 -->
-      </class> <!-- demo.GroupofGroups -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite name can be modified eg FunctionalTestSuite -->
+        </test-method> <!-- BeforeClass -->
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:demo.beforeAfter@4445629]" started-at="2020-03-30T15:21:30 IST" name="BeforeTest" finished-at="2020-03-30T15:21:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method signature="Group2()[pri:0, instance:demo.beforeAfter@4445629]" started-at="2020-03-30T15:21:30 IST" name="Group2" finished-at="2020-03-30T15:21:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Group2 -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:demo.beforeAfter@4445629]" started-at="2020-03-30T15:21:30 IST" name="AfterMethod" finished-at="2020-03-30T15:21:30 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:demo.beforeAfter@4445629]" started-at="2020-03-30T15:21:30 IST" name="AfterMethod" finished-at="2020-03-30T15:21:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:demo.beforeAfter@4445629]" started-at="2020-03-30T15:21:30 IST" name="BeforeTest" finished-at="2020-03-30T15:21:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method signature="test2()[pri:0, instance:demo.beforeAfter@4445629]" started-at="2020-03-30T15:21:30 IST" name="test2" finished-at="2020-03-30T15:21:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:demo.beforeAfter@4445629]" started-at="2020-03-30T15:21:30 IST" name="BeforeTest" finished-at="2020-03-30T15:21:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method signature="test1()[pri:0, instance:demo.beforeAfter@4445629]" started-at="2020-03-30T15:21:30 IST" name="test1" finished-at="2020-03-30T15:21:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:demo.beforeAfter@4445629]" started-at="2020-03-30T15:21:30 IST" name="AfterClass" finished-at="2020-03-30T15:21:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+        <test-method is-config="true" signature="Aftertest()[pri:0, instance:demo.beforeAfter@4445629]" started-at="2020-03-30T15:21:30 IST" name="Aftertest" finished-at="2020-03-30T15:21:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftertest -->
+        <test-method signature="Group1()[pri:0, instance:demo.beforeAfter@4445629]" started-at="2020-03-30T15:21:30 IST" name="Group1" finished-at="2020-03-30T15:21:30 IST" depends-on-methods="demo.beforeAfter.test1" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Group1 -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:demo.beforeAfter@4445629]" started-at="2020-03-30T15:21:30 IST" name="AfterMethod" finished-at="2020-03-30T15:21:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:demo.beforeAfter@4445629]" started-at="2020-03-30T15:21:30 IST" name="AfterMethod" finished-at="2020-03-30T15:21:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:demo.beforeAfter@4445629]" started-at="2020-03-30T15:21:30 IST" name="BeforeTest" finished-at="2020-03-30T15:21:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method is-config="true" signature="Group4()[pri:0, instance:demo.beforeAfter@4445629]" started-at="2020-03-30T15:21:30 IST" name="Group4" finished-at="2020-03-30T15:21:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Group4 -->
+      </class> <!-- demo.beforeAfter -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

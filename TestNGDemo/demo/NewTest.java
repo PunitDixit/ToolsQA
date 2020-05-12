@@ -9,7 +9,7 @@ public class NewTest {
 	@DataProvider(name="MyData" )
      public Object[][] f() {
 	  
-	  Object dp[][] = new Object[3][2];
+	 Object dp[][] = new Object[3][2];
 	  
 	  dp[0][0]="dp[0][0]";
 	  dp[0][1]="dp[0][1]";

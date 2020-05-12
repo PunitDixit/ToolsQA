@@ -23,6 +23,7 @@ public class Navigation_methods {
 		
 		driver.navigate().to(URL);
 		
+		
 //		driver.findElement(By.className("twitter")).click();
 //		
 //		System.out.println("twitter is clicked");

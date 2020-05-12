@@ -43,7 +43,7 @@ public class AutoIt extends GlobalClass{
 		
 		
 		
-		
+		// Runtime.getRuntime().exec(au3EXEFilePath); // THIS DOESNT ALLOW DYNAMIC ARGUMENT PASSING
 		
 		System.out.println("Test completed");
 		
